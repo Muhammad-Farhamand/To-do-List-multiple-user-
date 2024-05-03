@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="to-do.css">
+</head>
+<body>
+    <div class="card">
+        <h2><span id="usernamePlaceholder"></span> 's To-Do List <img src="to-do-list.png"></h2>
+        <div class="input-group">
+            <input id="input-box" required="" type="text" name="text" autocomplete="off" class="input">
+            <label class="user-label">Task</label>
+            <button onclick = "addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+        </ul>
+
+    </div>
+<script src="script.js" defer></script>
+
+</body>
+</html>

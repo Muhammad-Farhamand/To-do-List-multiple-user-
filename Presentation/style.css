@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9F7F7;
+}
+
+.login-box {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin: 150px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+    }
+    
+    .login-box p:first-child {
+      margin: 0 0 30px;
+      padding: 0;
+      color: #3F72AF;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    
+    .login-box .user-box {
+      position: relative;
+    }
+    
+    .login-box .user-box input {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 16px;
+      color: #112D4E;
+      margin-bottom: 30px;
+      border: none;
+      border-bottom: 1px solid #112D4E;
+      outline: none;
+      background: transparent;
+    }
+    
+    .login-box .user-box label {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 10px 0;
+      font-size: 16px;
+      color: #112D4E;
+      pointer-events: none;
+      transition: .5s;
+    }
+    
+    .login-box .user-box input:focus ~ label,
+    .login-box .user-box input:valid ~ label {
+      top: -20px;
+      left: 0;
+      color: #3F72AF;
+      font-size: 12px;
+    }
+    
+    .login-box form a {
+      position: relative;
+      display: inline-block;
+      padding: 10px 150px;
+      font-weight: bold;
+      color: #3F72AF;
+      font-size: 16px;
+      text-decoration: none;
+      text-transform: uppercase;
+      overflow: hidden;
+      transition: .5s;
+      margin-top: 20px;
+      letter-spacing: 3px
+    }
+    
+    .login-box a:hover {
+      background: #3F72AF;
+      color: #112D4E;
+      border-radius: 5px;
+    }
+    
+    .login-box a span {
+      position: absolute;
+      display: block;
+    }
+  
+.login-box p:last-child {
+    padding: 15px 80px 0px;
+    color: #112D4E;
+    font-size: 14px;
+}
+    
+    .login-box a.a2 {
+      color: #3F72AF;
+      text-decoration: none;
+    }
+    
+    .login-box a.a2:hover {
+      background: transparent;
+      color: #112D4E;
+      border-radius: 5px;
+    }

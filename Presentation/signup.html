@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-box">
+        <p>SIGN UP</p>
+        <form id="signup-form" action="/api/signup" method="post">
+          <div class="user-box">
+            <input id="username" required="required" name="username" type="text">
+            <label>Username</label>
+          </div>
+          <div class="user-box">
+            <input id="email" required="required" name="email" type="text">
+            <label>Email</label>
+          </div>
+          <div class="user-box">
+            <input id="pass" required="required" name="password" type="password">
+            <label>Password</label>
+          </div>
+          <div class="user-box">
+            <input id="passwordConfirm" required="required" name="confirmPass" type="password">
+            <label>Confirm Password</label>
+          </div>
+          <a href="#" onclick="signUpUser()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Submit
+          </a>
+        </form>
+        <p>Already have an account? <a href="index.html" class="a2">Login!</a></p>
+      </div>
+
+      <script src="signup-script.js" defer></script>
+    
+</body>
+</html>
